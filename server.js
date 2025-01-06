@@ -23,7 +23,9 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => console.log("MongoDB connected"))
-  .catch((error) => console.log(error));
+  .catch((error) =>
+    console.log("Error occurred while connecting to the DB:", error)
+  );
 
 // Start the server
 const PORT = process.env.PORT || 5000;
