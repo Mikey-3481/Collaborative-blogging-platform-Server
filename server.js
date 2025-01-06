@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
 
-import authRoutes from "./routes/auth";
-import postRoutes from "./routes/posts";
+import authRoutes from "./routes/auth.js";
+import postRoutes from "./routes/posts.js";
 
 dotenv.config();
 const app = express();

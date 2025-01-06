@@ -1,6 +1,6 @@
 import express from "express";
 import jwt from "jsonwebtoken";
-import Post from "../models/Post";
+import Post from "../models/Post.js";
 import dotenv from "dotenv";
 dotenv.config();
 
